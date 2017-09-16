@@ -20,6 +20,10 @@ For air_cargo_p1, air_cargo_p2, and air_cargo_p3; metrics on number of node expa
 |Depth First Graph Search| 624|625| 5602|619|7.64|	No|
 |Greedy_best_first_graph_search with h_1|998|1000|8982|21|5.7|No|
 
+
+
+
+
 ### Solving Air Cargo Problem 3
 |Search Type	|	Expansions|	Goal Tests|	New Nodes|	Length	|Time (s)|	Optimal|
 |-----------|--------------|---------------------------------------------------------------|
