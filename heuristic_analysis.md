@@ -15,8 +15,8 @@ For air_cargo_p1, air_cargo_p2, and air_cargo_p3, metrics on number of node expa
 |Depth First Graph Search| 624|625| 5602|619|7.64|	No|
 |Greedy_best_first_graph_search with h_1|998|1000|8982|21|5.7|No
 #### Solving Air Cargo Problem 3
-|Search Type	|	Expansions|	Goal Tests|	New Nodes|	Length	|Time (s)|	Optimal|
-|-----------|--------------|---------------------------------------------------------------|
+|Search Type|Expansions|Goal Tests|New Nodes|Length|Time (s)|Optimal|
+|-----------|--------------|---------------------------------|
 |Breadth First Search |14663|18098|129631|12|250.5|	Yes|
 |Depth First Graph Search|408| 409|3364|392|4.17|	No|
 |Greedy_best_first_graph_search with h_1|4031|4033|35794|22|31.6|No|
@@ -30,6 +30,7 @@ For air_cargo_p1, air_cargo_p2, and air_cargo_p3, metrics on number of node expa
 ## Informed (Heuristic) Search Strategies Analysis
 
  A* planning searches using the heuristics are implemented on 'air_cargo_p1, air_cargo_p2 and air_cargo_p3'. Metrics on number of node expansions required, number of goal tests, time elapsed, and optimality of solution for each search algorithm are provided below.
+ 
 #### Solving Air Cargo Problem 1
 |Search Type|	Expansions|	Goal Tests|	New Nodes|	Length	|Time (s)|	Optimal|
 |-----------|--------------|---------------------------------------------------------------|
