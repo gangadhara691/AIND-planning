@@ -1,8 +1,5 @@
 # Report Analysis a Planning Search For a Air Cargo 
-
 This project implements deterministic logistics planning problems for an Air Cargo transport system using a planning search agent.Optimal plans for each problem are computed.
-
-
 ## Non-Heuristic  Search Strategies Analysis
 For air_cargo_p1, air_cargo_p2, and air_cargo_p3; metrics on number of node expansions required, number of goal tests, time elapsed, and optimality of solution for each search algorithm are given in the tables below. Included the result of at least three of these searches, including breadth-first and depth-first and greedy best first graph search.
 
@@ -19,10 +16,6 @@ For air_cargo_p1, air_cargo_p2, and air_cargo_p3; metrics on number of node expa
 |Breadth First Search | 3343|4609|30509  |9|33.94|	Yes|
 |Depth First Graph Search| 624|625| 5602|619|7.64|	No|
 |Greedy_best_first_graph_search with h_1|998|1000|8982|21|5.7|No|
-
-
-
-
 
 ### Solving Air Cargo Problem 3
 |Search Type	|	Expansions|	Goal Tests|	New Nodes|	Length	|Time (s)|	Optimal|
@@ -42,9 +35,6 @@ For air_cargo_p1, air_cargo_p2, and air_cargo_p3; metrics on number of node expa
 ## Informed (Heuristic) Search Strategies Analysis
 
  A* planning searches using the heuristics are implemented on 'air_cargo_p1, air_cargo_p2 and air_cargo_p3'. Metrics on number of node expansions required, number of goal tests, time elapsed, and optimality of solution for each search algorithm are provided below.
-
-
-
 ### Solving Air Cargo Problem 1
 |Search Type|	Expansions|	Goal Tests|	New Nodes|	Length	|Time (s)|	Optimal|
 |-----------|--------------|---------------------------------------------------------------|
@@ -80,7 +70,6 @@ For air_cargo_p1, air_cargo_p2, and air_cargo_p3; metrics on number of node expa
 
 
 
-<br/>
 <br/>
 <br/>
 <br/>
