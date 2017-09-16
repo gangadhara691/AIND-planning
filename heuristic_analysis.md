@@ -40,12 +40,14 @@ For air_cargo_p1, air_cargo_p2, and air_cargo_p3; metrics on number of node expa
  A* planning searches using the heuristics are implemented on 'air_cargo_p1, air_cargo_p2 and air_cargo_p3'. Metrics on number of node expansions required, number of goal tests, time elapsed, and optimality of solution for each search algorithm are provided below.
 
 
+
 ### Solving Air Cargo Problem 1
 |Search Type|	Expansions|	Goal Tests|	New Nodes|	Length	|Time (s)|	Optimal|
 |-----------|--------------|---------------------------------------------------------------|
 |A* Search h_1|55|	57|	224	|6|	0.103|Yes|
 |A* Search with h_ignore_preconditions|	41|43|170|6|0.101|Yes|
 |A* Search h_pg_levelsum|11|13|50|6|2.91|Yes|
+
 
 ### Solving Air Cargo Problem 2
 |Search Type|	Expansions|	Goal Tests|	New Nodes|	Length	|Time (s)|	Optimal|
@@ -54,6 +56,7 @@ For air_cargo_p1, air_cargo_p2, and air_cargo_p3; metrics on number of node expa
 |A* Search with h_ignore_preconditions|1450|1452|13303|9|12.85|Yes|
 |A* Search h_pg_levelsum|86|88|841|9|249.6|Yes|
 
+
 ### Solving Air Cargo Problem 3
 |Search Type|	Expansions|	Goal Tests|	New Nodes|	Length	|Time (s)|	Optimal|
 |-----------|--------------|---------------------------------------------------------------|
@@ -61,28 +64,36 @@ For air_cargo_p1, air_cargo_p2, and air_cargo_p3; metrics on number of node expa
 |A* Search with h_ignore_preconditions|5003|5005|44586|12|43.44|Yes|
 |A* Search h_pg_levelsum|311|313 |2863|12|1185.75(> 10 min)|No|
 
+
 >### Analysis
 >Heuristic searches performed well as the problem become more complex. This is more evident in the air cargo problem 3, where the “A* Search with ‘h_ignore_preconditions’” performance was optimal and the fastest amongst those that were optimal. The ‘h_pg_levelsum’ heuristic performed poorly because of the complex nature of heuristic.
 
 
+
 ## Comparing Non-Informed and Heuristic(Taken best from both)
 ### Solving Air Cargo Problem 1
+
 |Search Type	|	Expansions|	Goal Tests|	New Nodes|	Length	|Time (s)|	Optimal|
 |-----------|--------------|---------------------------------------------------------------|
 |Breadth First Search |43 |56 |180 |6|0.0827|Yes|
 |A* Search with h_ignore_preconditions|	41|43|170|6|0.101|Yes|
 
+
 ### Solving Air Cargo Problem 2
+
 |Search Type	|	Expansions|	Goal Tests|	New Nodes|	Length	|Time (s)|	Optimal|
 |-----------|--------------|---------------------------------------------------------------|
 |Breadth First Search | 3343|4609|30509  |9|33.94|	Yes|
 |A* Search with h_ignore_preconditions|1450|1452|13303|9|12.85|Yes|
 
+
 ### Solving Air Cargo Problem 3
+
 |Search Type|	Expansions|	Goal Tests|	New Nodes|	Length	|Time (s)|	Optimal|
 |-----------|--------------|---------------------------------------------------------------|
 |Breadth First Search |14663|18098|129631|12|250.5|	Yes|
 |A* Search with h_ignore_preconditions|5003|5005|44586|12|43.44|Yes|
+
 
 >According to the results obtained in this analysis, the breadth first search strategy can solve planning problems both fast and optimality, which makes it a good candidate to start off an analysis when dealing with search planning problems. As the complexity of the problems increase, it might be worth to consider if a heuristic based approach such as “A* Search with ‘h_ignore_preconditions’” can outperform breadth first search and thus be used instead.
 
@@ -92,6 +103,8 @@ For air_cargo_p1, air_cargo_p2, and air_cargo_p3; metrics on number of node expa
 ## Optimal Sequence of Actions
 
 ### The following  describes an optimal sequence of actions to solve each of the air cargo problems provided  from the above tables:
+
+
 
 
 |Problem	|Search Type	|Optimal Sequence of Actions|
