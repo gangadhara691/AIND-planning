@@ -60,7 +60,11 @@ For air_cargo_p1, air_cargo_p2, and air_cargo_p3; metrics on number of node expa
 |A* Search with h_ignore_preconditions|1450|1452|13303|9|12.85|Yes|
 |A* Search h_pg_levelsum|86|88|841|9|249.6|Yes|
 
-
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 ### Solving Air Cargo Problem 3
 |Search Type|	Expansions|	Goal Tests|	New Nodes|	Length	|Time (s)|	Optimal|
 |-----------|--------------|---------------------------------------------------------------|
@@ -74,6 +78,13 @@ For air_cargo_p1, air_cargo_p2, and air_cargo_p3; metrics on number of node expa
 
 
 
+
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 ## Comparing Non-Informed and Heuristic(Taken best from both)
 ### Solving Air Cargo Problem 1
 
@@ -82,7 +93,10 @@ For air_cargo_p1, air_cargo_p2, and air_cargo_p3; metrics on number of node expa
 |Breadth First Search |43 |56 |180 |6|0.0827|Yes|
 |A* Search with h_ignore_preconditions|	41|43|170|6|0.101|Yes|
 
-
+<br/>
+<br/>
+<br/>
+<br/>
 ### Solving Air Cargo Problem 2
 
 |Search Type	|	Expansions|	Goal Tests|	New Nodes|	Length	|Time (s)|	Optimal|
